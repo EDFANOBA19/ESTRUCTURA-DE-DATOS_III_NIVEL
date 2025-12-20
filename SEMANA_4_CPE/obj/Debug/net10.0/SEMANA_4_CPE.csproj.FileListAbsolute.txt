@@ -1,0 +1,15 @@
+C:\Users\hp\.vscode\proyectos\ESTRUCTURA DE DATOS III NIVEL\SEMANA_4_CPE\bin\Debug\net10.0\SEMANA_4_CPE.exe
+C:\Users\hp\.vscode\proyectos\ESTRUCTURA DE DATOS III NIVEL\SEMANA_4_CPE\bin\Debug\net10.0\SEMANA_4_CPE.deps.json
+C:\Users\hp\.vscode\proyectos\ESTRUCTURA DE DATOS III NIVEL\SEMANA_4_CPE\bin\Debug\net10.0\SEMANA_4_CPE.runtimeconfig.json
+C:\Users\hp\.vscode\proyectos\ESTRUCTURA DE DATOS III NIVEL\SEMANA_4_CPE\bin\Debug\net10.0\SEMANA_4_CPE.dll
+C:\Users\hp\.vscode\proyectos\ESTRUCTURA DE DATOS III NIVEL\SEMANA_4_CPE\bin\Debug\net10.0\SEMANA_4_CPE.pdb
+C:\Users\hp\.vscode\proyectos\ESTRUCTURA DE DATOS III NIVEL\SEMANA_4_CPE\obj\Debug\net10.0\SEMANA_4_CPE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\.vscode\proyectos\ESTRUCTURA DE DATOS III NIVEL\SEMANA_4_CPE\obj\Debug\net10.0\SEMANA_4_CPE.AssemblyInfoInputs.cache
+C:\Users\hp\.vscode\proyectos\ESTRUCTURA DE DATOS III NIVEL\SEMANA_4_CPE\obj\Debug\net10.0\SEMANA_4_CPE.AssemblyInfo.cs
+C:\Users\hp\.vscode\proyectos\ESTRUCTURA DE DATOS III NIVEL\SEMANA_4_CPE\obj\Debug\net10.0\SEMANA_4_CPE.csproj.CoreCompileInputs.cache
+C:\Users\hp\.vscode\proyectos\ESTRUCTURA DE DATOS III NIVEL\SEMANA_4_CPE\obj\Debug\net10.0\SEMANA_4_CPE.sourcelink.json
+C:\Users\hp\.vscode\proyectos\ESTRUCTURA DE DATOS III NIVEL\SEMANA_4_CPE\obj\Debug\net10.0\SEMANA_4_CPE.dll
+C:\Users\hp\.vscode\proyectos\ESTRUCTURA DE DATOS III NIVEL\SEMANA_4_CPE\obj\Debug\net10.0\refint\SEMANA_4_CPE.dll
+C:\Users\hp\.vscode\proyectos\ESTRUCTURA DE DATOS III NIVEL\SEMANA_4_CPE\obj\Debug\net10.0\SEMANA_4_CPE.pdb
+C:\Users\hp\.vscode\proyectos\ESTRUCTURA DE DATOS III NIVEL\SEMANA_4_CPE\obj\Debug\net10.0\SEMANA_4_CPE.genruntimeconfig.cache
+C:\Users\hp\.vscode\proyectos\ESTRUCTURA DE DATOS III NIVEL\SEMANA_4_CPE\obj\Debug\net10.0\ref\SEMANA_4_CPE.dll
