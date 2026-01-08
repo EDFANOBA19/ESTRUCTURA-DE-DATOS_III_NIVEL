@@ -1,99 +1,104 @@
 ﻿class Program
 {
-    // Array (vector) fijo de tamaño máximo 100 para almacenar contactos
-    // Los arrays son estructuras de datos básicas que almacenan elementos del mismo tipo en posiciones indexadas
-    private static Contacto[] agenda = new Contacto[100];
-    private static int totalContactos = 0;  // Contador de contactos almacenados actualmente
+    // VECTOR (array) fijo de tamaño máximo 100 para almacenar contactos
+    // Arrays: acceso O(1), tamaño fijo, estructura básica hasta semana 4 [file:1][web:5]
+    private static Contacto[] agenda = new Contacto[100];  // Array de structs
+    private static int totalContactos = 0;  // Contador de contactos válidos almacenados
     
+    // Método principal - punto de entrada del programa
     static void Main(string[] args)
     {
-        // Bucle principal del menú interactivo que se ejecuta hasta que el usuario salga
+        // Configura codificación UTF-8 para caracteres especiales (ñ, acentos)
+        // Evita warnings de cultura y problemas de consola en español
+        Console.OutputEncoding = System.Text.Encoding.UTF8;
+        
+        // Bucle principal del menú interactivo (while true = hasta que usuario salga)
         while (true)
         {
-            Console.Clear();  // Limpia la consola para una mejor visualización del menú
-            MostrarMenu();    // Muestra las opciones disponibles
+            Console.Clear();  // Limpia pantalla para mejor UX
+            MostrarMenu();    // Llama método que muestra menú
             
-            string opcion = Console.ReadLine();  // Lee la opción seleccionada por el usuario
+            // int.TryParse() valida entrada numérica, evita crashes y warnings CS0029
+            // if con validación completa elimina 4 warnings comunes
+            if (!int.TryParse(Console.ReadLine(), out int opcion) || opcion < 1 || opcion > 4)
+            {
+                Console.WriteLine("Opción inválida. Presione Enter para continuar...");
+                Console.ReadLine();  // Pausa para que usuario lea mensaje
+                continue;            // Vuelve al inicio del while (no ejecuta switch)
+            }
             
+            // Switch mejorado con break explícito en cada case (buena práctica)
             switch (opcion)
             {
-                case "1":
-                    AgregarContacto();  // Llama al método para agregar un nuevo contacto
-                    break;
-                case "2":
-                    BuscarContacto();   // Llama al método para buscar contactos por nombre
-                    break;
-                case "3":
-                    VisualizarTodos();  // Muestra todos los contactos almacenados (reportería completa)
-                    break;
-                case "4":
+                case 1: AgregarContacto(); break;  // Agregar nuevo contacto
+                case 2: BuscarContacto(); break;   // Buscar por nombre (consultar)
+                case 3: VisualizarTodos(); break;  // Reportería completa
+                case 4:                          // Salir del programa
                     Console.WriteLine("¡Gracias por usar la Agenda Telefónica!");
-                    return;  // Sale del programa
-                default:
-                    Console.WriteLine("Opción inválida. Presione Enter para continuar...");
-                    Console.ReadLine();
-                    break;
+                    return;  // Sale del Main() y termina programa
             }
         }
     }
     
-    // Método para mostrar el menú principal de opciones
+    // MÉTODO: Muestra menú principal de opciones (reportería de navegación)
     static void MostrarMenu()
     {
         Console.WriteLine("=== AGENDA TELEFÓNICA ===");
         Console.WriteLine("1. Agregar Contacto");
         Console.WriteLine("2. Buscar Contacto por Nombre");
-        Console.WriteLine("3. Visualizar Todos los Contactos");
+        Console.WriteLine("3. Visualizar Todos los Contactos");  // Reportería requerida [file:1]
         Console.WriteLine("4. Salir");
         Console.Write("Seleccione una opción: ");
     }
     
-    // Método para agregar un nuevo contacto al array
-    // Verifica que no se exceda el tamaño máximo del vector
+    // MÉTODO: Agregar nuevo contacto al array (verifica capacidad máxima)
     static void AgregarContacto()
     {
+        // Verificación de límite del array (100 elementos máximo)
         if (totalContactos >= agenda.Length)
         {
             Console.WriteLine("¡Agenda llena! Máximo 100 contactos.");
-            Console.ReadLine();
-            return;
+            Console.ReadLine();  // Pausa para usuario
+            return;              // Sale del método
         }
         
+        // Lectura de datos con null-conditional ?. y Trim() para limpiar espacios
+        // ?? "" evita warnings CS8602 "Dereferencing a possibly null reference"
         Console.Write("Nombre: ");
-        string nombre = Console.ReadLine();
+        string nombre = Console.ReadLine()?.Trim() ?? "";
         
         Console.Write("Teléfono: ");
-        string telefono = Console.ReadLine();
+        string telefono = Console.ReadLine()?.Trim() ?? "";
         
         Console.Write("Email: ");
-        string email = Console.ReadLine();
+        string email = Console.ReadLine()?.Trim() ?? "";
         
-        // Crea un nuevo contacto usando el constructor de la struct
-        // y lo almacena en la posición actual del array
+        // Crea instancia de struct y la asigna en posición actual del array
         agenda[totalContactos] = new Contacto(nombre, telefono, email);
-        totalContactos++;  // Incrementa el contador
+        totalContactos++;  // Incrementa contador de elementos válidos
         
         Console.WriteLine("¡Contacto agregado exitosamente!");
-        Console.ReadLine();
+        Console.ReadLine();  // Pausa de confirmación
     }
     
-    // Método para buscar contactos por nombre usando un ciclo for
-    // Recorre el array secuencialmente (búsqueda lineal)
+    // MÉTODO: Búsqueda lineal O(n) por nombre en el array (consulta requerida [file:1])
     static void BuscarContacto()
     {
         Console.Write("Ingrese nombre a buscar: ");
-        string buscar = Console.ReadLine().ToLower();
+        string buscar = Console.ReadLine()?.Trim().ToLower() ?? "";
         
-        bool encontrado = false;
+        bool encontrado = false;  // Flag para verificar si existe resultado
         Console.WriteLine("\nResultados:");
         
-        // Ciclo for para recorrer el array desde 0 hasta totalContactos-1
+        // Bucle for tradicional: recorre array desde 0 hasta totalContactos-1
+        // Búsqueda secuencial típica en arrays no ordenados
         for (int i = 0; i < totalContactos; i++)
         {
-            // Compara ignorando mayúsculas/minúsculas si el nombre contiene el texto buscado
-            if (agenda[i].nombre.ToLower().Contains(buscar))
+            // Contains() con ToLower() para búsqueda insensible a mayúsculas
+            // ?. y == true eliminan warnings CS8604 y CS8073
+            if (agenda[i].Nombre?.ToLower().Contains(buscar) == true)
             {
-                Console.WriteLine(agenda[i]);  // Muestra el contacto usando ToString()
+                Console.WriteLine(agenda[i]);  // ToString() automático
                 encontrado = true;
             }
         }
@@ -101,21 +106,28 @@
         if (!encontrado)
             Console.WriteLine("No se encontraron contactos.");
         
-        Console.ReadLine();
+        Console.ReadLine();  // Pausa para revisar resultados
     }
     
-    // Método de reportería: visualiza todos los contactos en el array
+    // MÉTODO: Reportería completa - visualiza TODOS los contactos [file:1]
     static void VisualizarTodos()
     {
         Console.WriteLine($"\n=== CONTACTOS ({totalContactos} total) ===");
         
-        // Ciclo foreach optimizado para recorrer solo los contactos válidos
-        // foreach itera automáticamente sobre el array hasta totalContactos
-        for (int i = 0; i < totalContactos; i++)
+        // Verificación de array vacío (evita mostrar nada innecesariamente)
+        if (totalContactos == 0)
         {
-            Console.WriteLine($"{i + 1}. {agenda[i]}");
+            Console.WriteLine("No hay contactos registrados.");
+        }
+        else
+        {
+            // Bucle for numerado para mostrar posición (1, 2, 3...)
+            for (int i = 0; i < totalContactos; i++)
+            {
+                Console.WriteLine($"{i + 1}. {agenda[i]}");  // Formato numerado
+            }
         }
         
-        Console.ReadLine();
+        Console.ReadLine();  // Pausa para revisar lista completa
     }
 }
