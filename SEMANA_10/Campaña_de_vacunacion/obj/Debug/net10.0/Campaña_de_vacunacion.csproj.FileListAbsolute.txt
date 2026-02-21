@@ -1,0 +1,15 @@
+C:\Users\hp\.vscode\proyectos\ESTRUCTURA DE DATOS III NIVEL\SEMANA_10\Campaña_de_vacunacion\bin\Debug\net10.0\Campaña_de_vacunacion.exe
+C:\Users\hp\.vscode\proyectos\ESTRUCTURA DE DATOS III NIVEL\SEMANA_10\Campaña_de_vacunacion\bin\Debug\net10.0\Campaña_de_vacunacion.deps.json
+C:\Users\hp\.vscode\proyectos\ESTRUCTURA DE DATOS III NIVEL\SEMANA_10\Campaña_de_vacunacion\bin\Debug\net10.0\Campaña_de_vacunacion.runtimeconfig.json
+C:\Users\hp\.vscode\proyectos\ESTRUCTURA DE DATOS III NIVEL\SEMANA_10\Campaña_de_vacunacion\bin\Debug\net10.0\Campaña_de_vacunacion.dll
+C:\Users\hp\.vscode\proyectos\ESTRUCTURA DE DATOS III NIVEL\SEMANA_10\Campaña_de_vacunacion\bin\Debug\net10.0\Campaña_de_vacunacion.pdb
+C:\Users\hp\.vscode\proyectos\ESTRUCTURA DE DATOS III NIVEL\SEMANA_10\Campaña_de_vacunacion\obj\Debug\net10.0\Campaña_de_vacunacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\.vscode\proyectos\ESTRUCTURA DE DATOS III NIVEL\SEMANA_10\Campaña_de_vacunacion\obj\Debug\net10.0\Campaña_de_vacunacion.AssemblyInfoInputs.cache
+C:\Users\hp\.vscode\proyectos\ESTRUCTURA DE DATOS III NIVEL\SEMANA_10\Campaña_de_vacunacion\obj\Debug\net10.0\Campaña_de_vacunacion.AssemblyInfo.cs
+C:\Users\hp\.vscode\proyectos\ESTRUCTURA DE DATOS III NIVEL\SEMANA_10\Campaña_de_vacunacion\obj\Debug\net10.0\Campaña_de_vacunacion.csproj.CoreCompileInputs.cache
+C:\Users\hp\.vscode\proyectos\ESTRUCTURA DE DATOS III NIVEL\SEMANA_10\Campaña_de_vacunacion\obj\Debug\net10.0\Campaña_de_vacunacion.sourcelink.json
+C:\Users\hp\.vscode\proyectos\ESTRUCTURA DE DATOS III NIVEL\SEMANA_10\Campaña_de_vacunacion\obj\Debug\net10.0\Campaña_de_vacunacion.dll
+C:\Users\hp\.vscode\proyectos\ESTRUCTURA DE DATOS III NIVEL\SEMANA_10\Campaña_de_vacunacion\obj\Debug\net10.0\refint\Campaña_de_vacunacion.dll
+C:\Users\hp\.vscode\proyectos\ESTRUCTURA DE DATOS III NIVEL\SEMANA_10\Campaña_de_vacunacion\obj\Debug\net10.0\Campaña_de_vacunacion.pdb
+C:\Users\hp\.vscode\proyectos\ESTRUCTURA DE DATOS III NIVEL\SEMANA_10\Campaña_de_vacunacion\obj\Debug\net10.0\Campaña_de_vacunacion.genruntimeconfig.cache
+C:\Users\hp\.vscode\proyectos\ESTRUCTURA DE DATOS III NIVEL\SEMANA_10\Campaña_de_vacunacion\obj\Debug\net10.0\ref\Campaña_de_vacunacion.dll
