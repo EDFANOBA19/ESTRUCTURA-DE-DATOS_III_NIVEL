@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Campaña_de_vacunacion")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eafac64585c4e1a13f0938044f69ea4a95fb2688")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2b814f1399b059fc5c503a46444c713f49690850")]
 [assembly: System.Reflection.AssemblyProductAttribute("Campaña_de_vacunacion")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Campaña_de_vacunacion")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
