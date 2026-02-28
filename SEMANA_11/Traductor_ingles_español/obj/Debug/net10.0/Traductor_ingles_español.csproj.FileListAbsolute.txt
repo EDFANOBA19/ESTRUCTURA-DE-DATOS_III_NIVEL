@@ -1,0 +1,15 @@
+C:\Users\hp\.vscode\proyectos\ESTRUCTURA DE DATOS III NIVEL\SEMANA_11\Traductor_ingles_español\obj\Debug\net10.0\Traductor_ingles_español.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\.vscode\proyectos\ESTRUCTURA DE DATOS III NIVEL\SEMANA_11\Traductor_ingles_español\obj\Debug\net10.0\Traductor_ingles_español.AssemblyInfoInputs.cache
+C:\Users\hp\.vscode\proyectos\ESTRUCTURA DE DATOS III NIVEL\SEMANA_11\Traductor_ingles_español\obj\Debug\net10.0\Traductor_ingles_español.AssemblyInfo.cs
+C:\Users\hp\.vscode\proyectos\ESTRUCTURA DE DATOS III NIVEL\SEMANA_11\Traductor_ingles_español\obj\Debug\net10.0\Traductor_ingles_español.csproj.CoreCompileInputs.cache
+C:\Users\hp\.vscode\proyectos\ESTRUCTURA DE DATOS III NIVEL\SEMANA_11\Traductor_ingles_español\obj\Debug\net10.0\Traductor_ingles_español.sourcelink.json
+C:\Users\hp\.vscode\proyectos\ESTRUCTURA DE DATOS III NIVEL\SEMANA_11\Traductor_ingles_español\bin\Debug\net10.0\Traductor_ingles_español.exe
+C:\Users\hp\.vscode\proyectos\ESTRUCTURA DE DATOS III NIVEL\SEMANA_11\Traductor_ingles_español\bin\Debug\net10.0\Traductor_ingles_español.deps.json
+C:\Users\hp\.vscode\proyectos\ESTRUCTURA DE DATOS III NIVEL\SEMANA_11\Traductor_ingles_español\bin\Debug\net10.0\Traductor_ingles_español.runtimeconfig.json
+C:\Users\hp\.vscode\proyectos\ESTRUCTURA DE DATOS III NIVEL\SEMANA_11\Traductor_ingles_español\bin\Debug\net10.0\Traductor_ingles_español.dll
+C:\Users\hp\.vscode\proyectos\ESTRUCTURA DE DATOS III NIVEL\SEMANA_11\Traductor_ingles_español\bin\Debug\net10.0\Traductor_ingles_español.pdb
+C:\Users\hp\.vscode\proyectos\ESTRUCTURA DE DATOS III NIVEL\SEMANA_11\Traductor_ingles_español\obj\Debug\net10.0\Traductor_ingles_español.dll
+C:\Users\hp\.vscode\proyectos\ESTRUCTURA DE DATOS III NIVEL\SEMANA_11\Traductor_ingles_español\obj\Debug\net10.0\refint\Traductor_ingles_español.dll
+C:\Users\hp\.vscode\proyectos\ESTRUCTURA DE DATOS III NIVEL\SEMANA_11\Traductor_ingles_español\obj\Debug\net10.0\Traductor_ingles_español.pdb
+C:\Users\hp\.vscode\proyectos\ESTRUCTURA DE DATOS III NIVEL\SEMANA_11\Traductor_ingles_español\obj\Debug\net10.0\Traductor_ingles_español.genruntimeconfig.cache
+C:\Users\hp\.vscode\proyectos\ESTRUCTURA DE DATOS III NIVEL\SEMANA_11\Traductor_ingles_español\obj\Debug\net10.0\ref\Traductor_ingles_español.dll
