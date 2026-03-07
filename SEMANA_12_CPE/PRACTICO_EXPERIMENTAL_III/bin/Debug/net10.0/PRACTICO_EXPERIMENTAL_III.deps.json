@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "PRACTICO_EXPERIMENTAL_III/1.0.0": {
+        "runtime": {
+          "PRACTICO_EXPERIMENTAL_III.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PRACTICO_EXPERIMENTAL_III/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
