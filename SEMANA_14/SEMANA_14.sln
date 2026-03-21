@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Árbol_Binario_de_Búsqueda_BST", "Árbol_Binario_de_Búsqueda_BST\Árbol_Binario_de_Búsqueda_BST.csproj", "{166F6B0C-B3DD-1313-EAE4-2611CDAFE85B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{166F6B0C-B3DD-1313-EAE4-2611CDAFE85B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{166F6B0C-B3DD-1313-EAE4-2611CDAFE85B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{166F6B0C-B3DD-1313-EAE4-2611CDAFE85B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{166F6B0C-B3DD-1313-EAE4-2611CDAFE85B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {040DC8AA-F0CE-4633-98FD-E7E84CA219E8}
+	EndGlobalSection
+EndGlobal

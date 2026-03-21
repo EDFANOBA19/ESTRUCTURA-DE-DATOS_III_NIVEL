@@ -1,0 +1,15 @@
+C:\Users\hp\.vscode\proyectos\ESTRUCTURA DE DATOS III NIVEL\SEMANA_14\Árbol_Binario_de_Búsqueda_BST\bin\Debug\net10.0\Árbol_Binario_de_Búsqueda_BST.exe
+C:\Users\hp\.vscode\proyectos\ESTRUCTURA DE DATOS III NIVEL\SEMANA_14\Árbol_Binario_de_Búsqueda_BST\bin\Debug\net10.0\Árbol_Binario_de_Búsqueda_BST.deps.json
+C:\Users\hp\.vscode\proyectos\ESTRUCTURA DE DATOS III NIVEL\SEMANA_14\Árbol_Binario_de_Búsqueda_BST\bin\Debug\net10.0\Árbol_Binario_de_Búsqueda_BST.runtimeconfig.json
+C:\Users\hp\.vscode\proyectos\ESTRUCTURA DE DATOS III NIVEL\SEMANA_14\Árbol_Binario_de_Búsqueda_BST\bin\Debug\net10.0\Árbol_Binario_de_Búsqueda_BST.dll
+C:\Users\hp\.vscode\proyectos\ESTRUCTURA DE DATOS III NIVEL\SEMANA_14\Árbol_Binario_de_Búsqueda_BST\bin\Debug\net10.0\Árbol_Binario_de_Búsqueda_BST.pdb
+C:\Users\hp\.vscode\proyectos\ESTRUCTURA DE DATOS III NIVEL\SEMANA_14\Árbol_Binario_de_Búsqueda_BST\obj\Debug\net10.0\Árbol_Binario_de_Búsqueda_BST.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\.vscode\proyectos\ESTRUCTURA DE DATOS III NIVEL\SEMANA_14\Árbol_Binario_de_Búsqueda_BST\obj\Debug\net10.0\Árbol_Binario_de_Búsqueda_BST.AssemblyInfoInputs.cache
+C:\Users\hp\.vscode\proyectos\ESTRUCTURA DE DATOS III NIVEL\SEMANA_14\Árbol_Binario_de_Búsqueda_BST\obj\Debug\net10.0\Árbol_Binario_de_Búsqueda_BST.AssemblyInfo.cs
+C:\Users\hp\.vscode\proyectos\ESTRUCTURA DE DATOS III NIVEL\SEMANA_14\Árbol_Binario_de_Búsqueda_BST\obj\Debug\net10.0\Árbol_Binario_de_Búsqueda_BST.csproj.CoreCompileInputs.cache
+C:\Users\hp\.vscode\proyectos\ESTRUCTURA DE DATOS III NIVEL\SEMANA_14\Árbol_Binario_de_Búsqueda_BST\obj\Debug\net10.0\Árbol_Binario_de_Búsqueda_BST.sourcelink.json
+C:\Users\hp\.vscode\proyectos\ESTRUCTURA DE DATOS III NIVEL\SEMANA_14\Árbol_Binario_de_Búsqueda_BST\obj\Debug\net10.0\Árbol_Binario_de_Búsqueda_BST.dll
+C:\Users\hp\.vscode\proyectos\ESTRUCTURA DE DATOS III NIVEL\SEMANA_14\Árbol_Binario_de_Búsqueda_BST\obj\Debug\net10.0\refint\Árbol_Binario_de_Búsqueda_BST.dll
+C:\Users\hp\.vscode\proyectos\ESTRUCTURA DE DATOS III NIVEL\SEMANA_14\Árbol_Binario_de_Búsqueda_BST\obj\Debug\net10.0\Árbol_Binario_de_Búsqueda_BST.pdb
+C:\Users\hp\.vscode\proyectos\ESTRUCTURA DE DATOS III NIVEL\SEMANA_14\Árbol_Binario_de_Búsqueda_BST\obj\Debug\net10.0\Árbol_Binario_de_Búsqueda_BST.genruntimeconfig.cache
+C:\Users\hp\.vscode\proyectos\ESTRUCTURA DE DATOS III NIVEL\SEMANA_14\Árbol_Binario_de_Búsqueda_BST\obj\Debug\net10.0\ref\Árbol_Binario_de_Búsqueda_BST.dll
